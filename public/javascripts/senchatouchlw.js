@@ -125,8 +125,9 @@ var App = new Ext.Application({
                 NotesApp.views.noteEditor.load(record);
                 NotesApp.views.viewport.setActiveItem('noteEditor', { type: 'slide', direction: 'left' });
             },
-            itemTpl: '<div class="list-item-title">{title}</div>' +
-                '<div class="list-item-narrative">{narrative}</div>',
+//            itemTpl: '<div class="list-item-title">{title}</div>' +
+//                '<div class="list-item-narrative">{narrative}</div>',
+            itemTpl: '<div class="list-item-title">{title}</div>',
 
             listeners: {
                 'render': function (thisComponent) {
